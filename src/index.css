@@ -183,7 +183,7 @@ nav {
 #hero {
   background-image: url("../src/assets/images/hero-bg.jpg");
   background-size: cover;
-  background-color: rgba(104, 88, 173, 0.688);
+  background-color: rgba(118, 109, 156, 0.688);
   background-blend-mode: soft-light;
   display: flex;
   min-height: 10rem;
@@ -428,4 +428,23 @@ section p {
     justify-items: center;
     align-items: center;
   }
+}
+
+.resume-list {
+  line-height: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.resume-list li {
+  display: inline-block;
+  padding: 1px 10px;
+  background-color: var(--primary-color);
+  margin: 5px;
+  border-radius: 5px;
+  break-inside: avoid;
+}
+
+.resume-list li:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }

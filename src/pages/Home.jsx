@@ -9,7 +9,7 @@ export default function Home() {
                     <img src='./src/assets/images/vik-profile-pic-small.jpg' alt='Vik Boyechko' className='rounded-circle' />
                 </div>
                 <div className='w-75 mx-5'>
-                    <h2 className='mb-4'>Product Owner -> Web Developer</h2>
+                    <h2 className='mb-4'>Product Owner -&gt; Web Developer</h2>
                     <p>I am a Digital Product Owner who is learning full stack web development to further extend my skill set in web application development.</p>
 
                     <p>Throughout my career, I have had a deep love for continually learning and evolving in the digital space. My early background in digital marketing and content production has helped me utilize storytelling and technology to distill complex business goals into effortless customer experiences.</p>
