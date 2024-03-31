@@ -4,7 +4,6 @@ export default function Contact() {
     return (
         <>
             <Header>Contact</Header>
-            {/* <div className='w-25'></div> */}
             <section className='mx-auto'>
                 <div className='p-5'>
                     <h2>Get in Touch</h2>
@@ -26,9 +25,6 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
-            {/* <div className='w-25'></div> */}
-
-
         </>
     );
 }
