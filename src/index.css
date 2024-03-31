@@ -181,13 +181,15 @@ nav {
 
 /* setting image, overlay, and a flex container all at once */
 #hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../src/assets/images/hero-bg.jpg");
   background-size: cover;
   background-color: rgba(104, 88, 173, 0.688);
   background-blend-mode: soft-light;
   display: flex;
   min-height: 10rem;
   justify-content: center;
+  /* width: 100%; */
+  /* margin-top: -20px !important; */
 }
 
 #hero h2 {

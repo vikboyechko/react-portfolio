@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
 import App from './App';
-// import Error from './pages/Error';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
