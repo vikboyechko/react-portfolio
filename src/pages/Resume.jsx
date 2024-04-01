@@ -1,3 +1,5 @@
+// This file contains the Resume page component, which displays a downloadable thumbnail of the resume and lists proficiencies, environments, and languages/technologies.
+
 import Header from '../components/Header';
 
 export default function Resume() {

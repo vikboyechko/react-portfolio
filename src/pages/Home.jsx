@@ -1,3 +1,5 @@
+// This file defines the Home page component, which is the About section with a photo and brief bio.
+
 import Header from '../components/Header';
 
 export default function Home() {

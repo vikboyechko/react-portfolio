@@ -1,3 +1,5 @@
+// This file contains the Project component which is used to display a project card on the Portfolio page.
+
 export default function Project({ imgSrc, imgAlt, title, description, github, deployed }) {
     return (
         <>

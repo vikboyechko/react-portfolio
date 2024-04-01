@@ -1,3 +1,5 @@
+// Footer component
+
 export default function Footer() {
     return (
         <footer className='menu mt-auto py-3'>

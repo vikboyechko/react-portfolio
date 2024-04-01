@@ -65,6 +65,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.nav-link-active {
+  color: var(--primary-color);
+}
+
 .title-item {
   background-color: var(--primary-color);
   color: var(--secondary-color);

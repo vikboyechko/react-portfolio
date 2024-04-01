@@ -1,3 +1,5 @@
+// This file contains the Portfolio page component, which displays a list of projects. Each project is displayed using the Project component.
+
 import Header from '../components/Header';
 import Project from '../components/Project';
 
