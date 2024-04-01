@@ -66,8 +66,8 @@ nav {
 }
 
 .title-item {
-  /* background-color: var(--primary-color); */
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   width: 100%;
   text-align: center;
   padding: 5px 0;
@@ -295,12 +295,40 @@ section p {
 
 /* On hover of project card, see more details */
 
-.work-item .hover-link {
-  display: none;
+.work-item-overlay {
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.work-item:hover .hover-link {
-  display: block;
-  font-size: 2rem;
+.work-item-overlay .hover-text {
+  font-weight: 600;
+}
+
+/* Hide the text and link by default */
+.work-item-overlay .hover-link,
+.work-item-overlay .hover-text {
+  display: none;
+  padding: 5px;
   color: white;
+}
+
+/* Show the overlay when the work-item is hovered */
+.work-item:hover .work-item-overlay {
+  opacity: 1;
+}
+
+.work-item:hover .work-item-overlay .hover-text,
+.work-item:hover .work-item-overlay .hover-link {
+  display: block;
+  text-align: center;
 }
