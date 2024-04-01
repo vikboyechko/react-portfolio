@@ -10,7 +10,7 @@ export default function Home() {
                 <div className='container pt-5'>
                     <div className='row mx-4'>
                         <div className='col-12 col-md-3 mx-2 mb-5'>
-                            <img src='./src/assets/images/vik-profile-pic-small.jpg' alt='Vik Boyechko' className='rounded-circle' />
+                            <img src='/images/vik-profile-pic-small.jpg' alt='Vik Boyechko' className='rounded-circle' />
                         </div>
                         <div className='col-12 col-md-8 mx-2 mb-5'>
                             <h2 className='mb-4'>Product Owner -&gt; Web Developer</h2>

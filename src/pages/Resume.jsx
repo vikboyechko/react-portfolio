@@ -10,8 +10,8 @@ export default function Resume() {
                 <div className='container pt-5'>
                     <div className='row mx-4'>
                         <div className='col-12 col-md-3'>
-                            <a href='./src/assets/media/Vik_Boyechko_Resume.pdf' target='_blank'>
-                                <img src='./src/assets/images/vik-resume-thumb.jpg' alt='Resume' className='rounded' />
+                            <a href='/media/Vik_Boyechko_Resume.pdf' target='_blank'>
+                                <img src='/images/vik-resume-thumb.jpg' alt='Resume' className='rounded' />
                             </a>
                             <p className='text-center pt-3'><a href='./src/assets/media/Vik_Boyechko_Resume.pdf' target='_blank'>Download Resume</a></p>
                         </div>

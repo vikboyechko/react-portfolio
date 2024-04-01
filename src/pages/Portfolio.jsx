@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Project from '../components/Project';
 
 const renterlyApp = {
-    imgSrc: './src/assets/images/renterly-home-screen.jpg',
+    imgSrc: '/images/renterly-home-screen.jpg',
     imgAlt: 'Renterly App',
     title: 'Renterly App',
     description: 'A full-stack app using Sequelize, Express, Handlebars, and Node.js',
@@ -13,7 +13,7 @@ const renterlyApp = {
 };
 
 const chooseAidventure = {
-    imgSrc: './src/assets/images/choose-your-own-ai-adventure-screenshot.png',
+    imgSrc: '/images/choose-your-own-ai-adventure-screenshot.png',
     imgAlt: 'Choose Your Own AI Adventure',
     title: 'Choose Your Own AI Adventure',
     description: 'An unpredictable AI-powered adventure game with DALL-E images',
@@ -22,7 +22,7 @@ const chooseAidventure = {
 }
 
 const textEditorPWA = {
-    imgSrc: './src/assets/images/jate-pwa-screengrab.jpg',
+    imgSrc: '/images/jate-pwa-screengrab.jpg',
     imgAlt: 'JavaScript Text Editor PWA',
     title: 'JavaScript Text Editor PWA',
     description: 'A JavaScript text editor Progressive Web App with offline capabilities',
@@ -31,7 +31,7 @@ const textEditorPWA = {
 }
 
 const weatherDashboard = {
-    imgSrc: './src/assets/images/weather-dashboard-screenshot.jpg',
+    imgSrc: '/images/weather-dashboard-screenshot.jpg',
     imgAlt: 'Weather Dashboard',
     title: 'Weather Dashboard',
     description: 'A weather dashboard using the OpenWeather API',
@@ -40,7 +40,7 @@ const weatherDashboard = {
 }
 
 const dayPlanner = {
-    imgSrc: './src/assets/images/workday-scheduler-screenshot.jpg',
+    imgSrc: '/images/workday-scheduler-screenshot.jpg',
     imgAlt: 'Work Day Planner',
     title: 'Work Day Planner',
     description: 'A day planner using Javascript and Local Storage',
@@ -49,7 +49,7 @@ const dayPlanner = {
 }
 
 const techBlog = {
-    imgSrc: './src/assets/images/tech-blog-screenshot.jpg',
+    imgSrc: '/images/tech-blog-screenshot.jpg',
     imgAlt: 'Tech Blog',
     title: 'Tech Blog',
     description: 'An API template using Express, Sequelize, and Node.js',
@@ -58,7 +58,7 @@ const techBlog = {
 };
 
 const readmeGenerator = {
-    imgSrc: './src/assets/images/readme-generator-screenshot.jpg',
+    imgSrc: '/images/readme-generator-screenshot.jpg',
     imgAlt: 'Readme Generator',
     title: 'Readme Generator',
     description: 'A command-line application using Node.js',
